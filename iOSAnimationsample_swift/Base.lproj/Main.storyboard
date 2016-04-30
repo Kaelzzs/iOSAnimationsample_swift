@@ -17,7 +17,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5849" y="-2781"/>
+            <point key="canvasLocation" x="-9145" y="-4544"/>
         </scene>
         <!--Animation-->
         <scene sceneID="iiV-ex-i0O">
@@ -150,13 +150,25 @@
                                             <segue destination="JIq-L0-gK9" kind="push" id="9M5-Tr-gNG"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="i90-PO-zpz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="2tW-hm-Z6H" style="IBUITableViewCellStyleDefault" id="i90-PO-zpz">
                                         <rect key="frame" x="0.0" y="328" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i90-PO-zpz" id="Q19-sN-oWV">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Easing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2tW-hm-Z6H">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pVS-Ci-cyE" kind="push" id="6rc-eN-ZYS"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="p4k-K8-rKD">
                                         <rect key="frame" x="0.0" y="372" width="320" height="44"/>
@@ -186,7 +198,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TuB-C7-bDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5458" y="-2090"/>
+            <point key="canvasLocation" x="-8754" y="-3853"/>
         </scene>
         <!--Position-->
         <scene sceneID="Yv5-Hf-sl0">
@@ -223,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7q-qO-Jx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5014" y="-2839"/>
+            <point key="canvasLocation" x="-8310" y="-4602"/>
         </scene>
         <!--Opacity-->
         <scene sceneID="4J4-B7-fJa">
@@ -248,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y5O-FD-9uL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5014" y="-2210"/>
+            <point key="canvasLocation" x="-8310" y="-3973"/>
         </scene>
         <!--Repeat-->
         <scene sceneID="AOc-VX-Ue7">
@@ -285,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6GT-Mm-59T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4646" y="-2210"/>
+            <point key="canvasLocation" x="-7942" y="-3973"/>
         </scene>
         <!--Scale-->
         <scene sceneID="ueB-Ul-Ow4">
@@ -310,7 +322,50 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T2E-pN-qZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5019" y="-1580"/>
+            <point key="canvasLocation" x="-8315" y="-3343"/>
+        </scene>
+        <!--Easing-->
+        <scene sceneID="09J-jN-m13">
+            <objects>
+                <viewController id="pVS-Ci-cyE" customClass="EasingViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d7V-QP-8lT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="1sk-hg-UaW">
+                                <rect key="frame" x="14" y="88" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86784049829999999" blue="0.28698307029999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="nkQ-M5-uNo">
+                                <rect key="frame" x="14" y="182" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13219393060000001" green="0.79082009689999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="5RV-v1-OQR">
+                                <rect key="frame" x="14" y="276" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10283725990000001" green="0.77296711389999995" blue="0.55763836410000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8kF-Xg-Xax">
+                                <rect key="frame" x="14" y="369" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.59495590200000004" blue="0.37578523790000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Easing" id="yAA-mg-II6"/>
+                    <connections>
+                        <outlet property="blueSquare" destination="nkQ-M5-uNo" id="1PO-uV-z72"/>
+                        <outlet property="greenSquare" destination="5RV-v1-OQR" id="HzE-BI-hY4"/>
+                        <outlet property="orangeSquare" destination="8kF-Xg-Xax" id="IFV-PX-pLG"/>
+                        <outlet property="yellowSquare" destination="1sk-hg-UaW" id="sB6-aG-mWk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbe-St-Shg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7942" y="-3343"/>
         </scene>
         <!--Color-->
         <scene sceneID="ZqS-KT-uSU">
@@ -345,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIT-mU-hWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5014" y="-911"/>
+            <point key="canvasLocation" x="-8310" y="-2674"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qYc-KY-MGv">
@@ -363,7 +418,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shR-8f-YH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5849" y="-2090"/>
+            <point key="canvasLocation" x="-9145" y="-3853"/>
         </scene>
         <!--Rotation-->
         <scene sceneID="xdJ-Xw-o9Y">
@@ -398,7 +453,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1g-Wp-g6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4646" y="-2839"/>
+            <point key="canvasLocation" x="-7942" y="-4602"/>
         </scene>
     </scenes>
 </document>
