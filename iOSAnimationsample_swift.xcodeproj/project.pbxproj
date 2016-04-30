@@ -20,6 +20,7 @@
 		D601760A1CD475B100B46913 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176091CD475B100B46913 /* RotationViewController.swift */; };
 		D601760E1CD492D800B46913 /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601760D1CD492D800B46913 /* RepeatViewController.swift */; };
 		D60176101CD49C7600B46913 /* EasingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D601760F1CD49C7600B46913 /* EasingViewController.swift */; };
+		D60176121CD4A11100B46913 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176111CD4A11100B46913 /* SpringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D60176091CD475B100B46913 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 		D601760D1CD492D800B46913 /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		D601760F1CD49C7600B46913 /* EasingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingViewController.swift; sourceTree = "<group>"; };
+		D60176111CD4A11100B46913 /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D60176091CD475B100B46913 /* RotationViewController.swift */,
 				D601760D1CD492D800B46913 /* RepeatViewController.swift */,
 				D601760F1CD49C7600B46913 /* EasingViewController.swift */,
+				D60176111CD4A11100B46913 /* SpringViewController.swift */,
 				D60175E51CD4424500B46913 /* Main.storyboard */,
 				D60175E81CD4424500B46913 /* Assets.xcassets */,
 				D60175EA1CD4424500B46913 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 				D60175E41CD4424500B46913 /* ViewController.swift in Sources */,
 				D60176061CD46CCA00B46913 /* ScaleViewController.swift in Sources */,
 				D60176101CD49C7600B46913 /* EasingViewController.swift in Sources */,
+				D60176121CD4A11100B46913 /* SpringViewController.swift in Sources */,
 				D60176021CD4454900B46913 /* PositonViewController.swift in Sources */,
 				D60176041CD44E2000B46913 /* OpacityViewController.swift in Sources */,
 				D601760A1CD475B100B46913 /* RotationViewController.swift in Sources */,
