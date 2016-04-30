@@ -15,6 +15,7 @@
 		D60175F71CD4424600B46913 /* iOSAnimationsample_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60175F61CD4424600B46913 /* iOSAnimationsample_swiftUITests.swift */; };
 		D60176021CD4454900B46913 /* PositonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176011CD4454900B46913 /* PositonViewController.swift */; };
 		D60176041CD44E2000B46913 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176031CD44E2000B46913 /* OpacityViewController.swift */; };
+		D60176061CD46CCA00B46913 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176051CD46CCA00B46913 /* ScaleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D60175F81CD4424600B46913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60176011CD4454900B46913 /* PositonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositonViewController.swift; sourceTree = "<group>"; };
 		D60176031CD44E2000B46913 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		D60176051CD46CCA00B46913 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				D60175E31CD4424500B46913 /* ViewController.swift */,
 				D60176011CD4454900B46913 /* PositonViewController.swift */,
 				D60176031CD44E2000B46913 /* OpacityViewController.swift */,
+				D60176051CD46CCA00B46913 /* ScaleViewController.swift */,
 				D60175E51CD4424500B46913 /* Main.storyboard */,
 				D60175E81CD4424500B46913 /* Assets.xcassets */,
 				D60175EA1CD4424500B46913 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60175E41CD4424500B46913 /* ViewController.swift in Sources */,
+				D60176061CD46CCA00B46913 /* ScaleViewController.swift in Sources */,
 				D60176021CD4454900B46913 /* PositonViewController.swift in Sources */,
 				D60176041CD44E2000B46913 /* OpacityViewController.swift in Sources */,
 				D60175E21CD4424500B46913 /* AppDelegate.swift in Sources */,
@@ -394,6 +398,7 @@
 				D60175FD1CD4424600B46913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D60175FE1CD4424600B46913 /* Build configuration list for PBXNativeTarget "iOSAnimationsample_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				D60176001CD4424600B46913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
