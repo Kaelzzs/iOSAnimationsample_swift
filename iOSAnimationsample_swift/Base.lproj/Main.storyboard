@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-5849" y="-2781"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Animation-->
         <scene sceneID="iiV-ex-i0O">
             <objects>
                 <tableViewController id="gaD-8B-0yf" sceneMemberID="viewController">
@@ -130,13 +130,25 @@
                                             <segue destination="Hpk-Vc-IoB" kind="push" id="ETH-Ko-DPf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EUP-03-RvU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Iqv-7x-RIj" style="IBUITableViewCellStyleDefault" id="EUP-03-RvU">
                                         <rect key="frame" x="0.0" y="284" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EUP-03-RvU" id="SzL-bc-HoP">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Repeat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Iqv-7x-RIj">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="JIq-L0-gK9" kind="push" id="9M5-Tr-gNG"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="i90-PO-zpz">
                                         <rect key="frame" x="0.0" y="328" width="320" height="44"/>
@@ -170,13 +182,13 @@
                             <outlet property="delegate" destination="gaD-8B-0yf" id="cKR-nD-4SE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hhS-d7-IIc"/>
+                    <navigationItem key="navigationItem" title="Animation" id="hhS-d7-IIc"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TuB-C7-bDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5458" y="-2090"/>
         </scene>
-        <!--Positon View Controller-->
+        <!--Position-->
         <scene sceneID="Yv5-Hf-sl0">
             <objects>
                 <viewController id="mdv-JT-2Yv" customClass="PositonViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -202,7 +214,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KEN-Cs-qT9"/>
+                    <navigationItem key="navigationItem" title="Position" id="KEN-Cs-qT9"/>
                     <connections>
                         <outlet property="blueSquare" destination="JeF-fe-kGI" id="KNu-hi-cb3"/>
                         <outlet property="greenSquare" destination="787-Kn-s0a" id="Yht-Kl-Jhr"/>
@@ -213,7 +225,7 @@
             </objects>
             <point key="canvasLocation" x="-5014" y="-2839"/>
         </scene>
-        <!--Opacity View Controller-->
+        <!--Opacity-->
         <scene sceneID="4J4-B7-fJa">
             <objects>
                 <viewController id="OHN-V1-rOh" customClass="OpacityViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -229,7 +241,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="T3e-sR-EUM"/>
+                    <navigationItem key="navigationItem" title="Opacity" id="T3e-sR-EUM"/>
                     <connections>
                         <outlet property="opacityView" destination="O3a-Cw-FAL" id="VXz-tF-7Rp"/>
                     </connections>
@@ -238,7 +250,44 @@
             </objects>
             <point key="canvasLocation" x="-5014" y="-2210"/>
         </scene>
-        <!--Scale View Controller-->
+        <!--Repeat-->
+        <scene sceneID="AOc-VX-Ue7">
+            <objects>
+                <viewController id="JIq-L0-gK9" customClass="RepeatViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pVd-jM-9JJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="66O-Ra-E2i">
+                                <rect key="frame" x="14" y="91" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10283725986438075" green="0.77296711387434558" blue="0.55763836405422929" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="9V7-1O-lHk">
+                                <rect key="frame" x="14" y="214" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.55109601340000003" blue="0.15196460449999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Kg2-74-aVo">
+                                <rect key="frame" x="14" y="335" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.86784049829999999" blue="0.28698307029999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Repeat" id="ydc-Pq-q3V"/>
+                    <connections>
+                        <outlet property="greenSquare" destination="66O-Ra-E2i" id="PKG-Ub-IfM"/>
+                        <outlet property="orangeSquare" destination="9V7-1O-lHk" id="ZZi-jt-Tg0"/>
+                        <outlet property="yellowSquare" destination="Kg2-74-aVo" id="52h-ja-hom"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6GT-Mm-59T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4646" y="-2210"/>
+        </scene>
+        <!--Scale-->
         <scene sceneID="ueB-Ul-Ow4">
             <objects>
                 <viewController id="fTU-Zp-QXh" customClass="ScaleViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -254,7 +303,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UeK-BS-WvC"/>
+                    <navigationItem key="navigationItem" title="Scale" id="UeK-BS-WvC"/>
                     <connections>
                         <outlet property="scaleView" destination="2OH-D2-6WR" id="Dao-CU-IL0"/>
                     </connections>
@@ -263,7 +312,7 @@
             </objects>
             <point key="canvasLocation" x="-5019" y="-1580"/>
         </scene>
-        <!--Color View Controller-->
+        <!--Color-->
         <scene sceneID="ZqS-KT-uSU">
             <objects>
                 <viewController id="117-kH-9ry" customClass="ColorViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -288,7 +337,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nhJ-W9-spb"/>
+                    <navigationItem key="navigationItem" title="Color" id="nhJ-W9-spb"/>
                     <connections>
                         <outlet property="redView" destination="bXy-pO-v9x" id="Pv0-bR-1M2"/>
                         <outlet property="textLabel" destination="Q6M-lj-47j" id="s9J-Lm-jTY"/>
@@ -316,7 +365,7 @@
             </objects>
             <point key="canvasLocation" x="-5849" y="-2090"/>
         </scene>
-        <!--Rotation View Controller-->
+        <!--Rotation-->
         <scene sceneID="xdJ-Xw-o9Y">
             <objects>
                 <viewController id="Hpk-Vc-IoB" customClass="RotationViewController" customModule="iOSAnimationsample_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -341,7 +390,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7yI-Ht-xtE"/>
+                    <navigationItem key="navigationItem" title="Rotation" id="7yI-Ht-xtE"/>
                     <connections>
                         <outlet property="redView" destination="eWN-2Q-HgP" id="ZU9-aJ-5Lv"/>
                         <outlet property="textLabel" destination="ZlN-o2-QYN" id="Kbv-5L-leX"/>
