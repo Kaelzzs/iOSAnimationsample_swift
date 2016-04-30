@@ -16,6 +16,7 @@
 		D60176021CD4454900B46913 /* PositonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176011CD4454900B46913 /* PositonViewController.swift */; };
 		D60176041CD44E2000B46913 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176031CD44E2000B46913 /* OpacityViewController.swift */; };
 		D60176061CD46CCA00B46913 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176051CD46CCA00B46913 /* ScaleViewController.swift */; };
+		D60176081CD4732600B46913 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60176071CD4732600B46913 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		D60176011CD4454900B46913 /* PositonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositonViewController.swift; sourceTree = "<group>"; };
 		D60176031CD44E2000B46913 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		D60176051CD46CCA00B46913 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		D60176071CD4732600B46913 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				D60176011CD4454900B46913 /* PositonViewController.swift */,
 				D60176031CD44E2000B46913 /* OpacityViewController.swift */,
 				D60176051CD46CCA00B46913 /* ScaleViewController.swift */,
+				D60176071CD4732600B46913 /* ColorViewController.swift */,
 				D60175E51CD4424500B46913 /* Main.storyboard */,
 				D60175E81CD4424500B46913 /* Assets.xcassets */,
 				D60175EA1CD4424500B46913 /* LaunchScreen.storyboard */,
@@ -210,6 +213,7 @@
 				D60176061CD46CCA00B46913 /* ScaleViewController.swift in Sources */,
 				D60176021CD4454900B46913 /* PositonViewController.swift in Sources */,
 				D60176041CD44E2000B46913 /* OpacityViewController.swift in Sources */,
+				D60176081CD4732600B46913 /* ColorViewController.swift in Sources */,
 				D60175E21CD4424500B46913 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
